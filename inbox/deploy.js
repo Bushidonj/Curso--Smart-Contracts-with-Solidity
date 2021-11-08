@@ -4,8 +4,8 @@ const Web3 = require('web3');
 const { abi, evm } = require('./compile');
 
 provider = new HDWalletProvider(
-  'welcome seat ocean crucial wonder glad path forget romance fame grit parent',
-  'https://rinkeby.infura.io/v3/00cc14a550f643db8779c28b2fed700e'
+  // chave privada dentro de '',
+  //link de teste do infura''
 );
 
 const web3 = new Web3(provider);
